@@ -1,0 +1,19 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "A sample Node.js application to practice building RESTful APIs with Express, MongoDB, and JWT authentication. Includes examples of routing, middleware, error handling, and testing",
+  "main": "aside.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankush07-in/node-test.git"
+  },
+  "author": "Ankush Adhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankush07-in/node-test/issues"
+  },
+  "homepage": "https://github.com/ankush07-in/node-test#readme"
+}
