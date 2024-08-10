@@ -31,9 +31,15 @@ const fs = require('fs');
 // });
 
 // copyfile
-fs.copyFile("myHey.txt", "./copy/copy.txt", function(err){
-    if(err) console.error(err);
-    else console.log("copied");
-});
+// fs.copyFile("myHey.txt", "./copy/copy.txt", function(err){
+//     if(err) console.error(err);
+//     else console.log("copied");
+// });
 
 // unlink
+fs.unlink("myHey.txt", function(err){
+    if(err) console.error(err);
+    else console.log("file removed");
+});
+
+// rmdir
