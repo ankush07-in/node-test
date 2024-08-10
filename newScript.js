@@ -43,7 +43,7 @@ const fs = require('fs');
 // });
 
 // rmdir
-fs.rmdir("./copy", {recursive: true}, function(err){
+fs.rm("./folder", {recursive: true}, function(err){
     if(err) console.error(err);
     console.log("removed");
 });
