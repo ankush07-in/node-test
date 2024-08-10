@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ankush07-in/node-test/issues"
   },
-  "homepage": "https://github.com/ankush07-in/node-test#readme"
+  "homepage": "https://github.com/ankush07-in/node-test#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
