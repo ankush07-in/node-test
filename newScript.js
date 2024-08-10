@@ -37,9 +37,13 @@ const fs = require('fs');
 // });
 
 // unlink
-fs.unlink("myHey.txt", function(err){
-    if(err) console.error(err);
-    else console.log("file removed");
-});
+// fs.unlink("myHey.txt", function(err){
+//     if(err) console.error(err);
+//     else console.log("file removed");
+// });
 
 // rmdir
+fs.rmdir("./copy", function(err){
+    if(err) console.error(err);
+    console.log("removed");
+});
