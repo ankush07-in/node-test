@@ -13,34 +13,34 @@
 const fs = require('fs');
 
 // writefile
-// fs.writeFile("hey.txt", "Hello Ankush", function(err){
-//     if(err) console.error(err);
-//     else console.log("done");    
-// });
+fs.writeFile("hey.txt", "Hello Ankush", function(err){
+    if(err) console.error(err);
+    else console.log("done");    
+});
 
 // appendfile
-// fs.appendFile("hey.txt", ", Hello coder", function(err){
-//     if(err) console.error(err);
-//     else console.log("done");    
-// });
+fs.appendFile("hey.txt", ", Hello coder", function(err){
+    if(err) console.error(err);
+    else console.log("done");    
+});
 
 // rename
-// fs.rename("hey.txt", "myHey.txt", function(err){
-//     if(err) console.error(err);
-//     else console.log("file renamed"); 
-// });
+fs.rename("hey.txt", "myHey.txt", function(err){
+    if(err) console.error(err);
+    else console.log("file renamed"); 
+});
 
 // copyfile
-// fs.copyFile("myHey.txt", "./copy/copy.txt", function(err){
-//     if(err) console.error(err);
-//     else console.log("copied");
-// });
+fs.copyFile("myHey.txt", "./copy/copy.txt", function(err){
+    if(err) console.error(err);
+    else console.log("copied");
+});
 
 // unlink
-// fs.unlink("myHey.txt", function(err){
-//     if(err) console.error(err);
-//     else console.log("file removed");
-// });
+fs.unlink("myHey.txt", function(err){
+    if(err) console.error(err);
+    else console.log("file removed");
+});
 
 // rmdir
 fs.rm("./folder", {recursive: true}, function(err){
