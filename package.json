@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/ankush07-in/node-test#readme",
   "dependencies": {
-    "express": "^4.19.2",
     "one-liner-joke": "^1.2.2"
   }
 }
